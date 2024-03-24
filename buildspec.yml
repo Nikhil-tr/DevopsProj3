@@ -12,10 +12,12 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      - zip hello.zip ./index.html 
+      - zip hello.zip ./index.html appspec.yml
    
 artifacts:
   type: 
   files:
     - index.html
     - hello.zip
+    - buildspec.yml
+    - appspec.yml

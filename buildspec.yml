@@ -12,7 +12,7 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      - zip hello.zip ./index.html appspec.yml
+      - zip hello.zip ./index.html appspec.yml scripts/install_dependencies scripts/start_server
    
 artifacts:
   type: 

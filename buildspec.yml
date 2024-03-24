@@ -18,3 +18,4 @@ artifacts:
   type: 
   files:
     - index.html
+    - hello.zip
